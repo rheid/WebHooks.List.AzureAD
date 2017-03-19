@@ -24,8 +24,8 @@
   <!-- Name of your tenant e.g. contoso.onmicrosoft.com -->
   <add key="ida:Tenant" value="icthdt.onmicrosoft.com" />
   <add key="ida:AADInstance" value="https://login.microsoftonline.com/{0}" />
-  <!-- Url of your web hook service e.g https://rheid.icteam.de/api/webhook -->
-  <add key="ida:RedirectUri" value="https://rheid.icteam.de/" />
+  <!-- Url of your web hook service e.g https://pnpwebhookdemoaad.azurewebsites.net/api/webhook -->
+  <add key="ida:RedirectUri" value="https://ictpnpwebhookdemoaz.azurewebsites.net/" />
 
   <!-- Application specific settings -->
   <!-- Connection string to Azure storage account: we use a queue for async processing of web hook notifications 
@@ -36,11 +36,11 @@
   <!-- Name of your site collection that you want to use for web hook experimenting -->
   <add key="SiteCollection" value="/sites/rheidWebHook" />
   <!-- Url of your web hook service e.g https://pnpwebhookdemoaad.azurewebsites.net/api/webhook -->
-  <add key="WebHookEndPoint" value="https://rheid.icteam.de/api/webhook" />
+  <add key="WebHookEndPoint" value="https://ictpnpwebhookdemoaz.azurewebsites.net/api/webhook" />
   <!-- Location of the certificate used to perform "app-only" authentication towards SharePoint Online using Azure AD authentication -->
   <add key="CertificateStore" value="My" />
   <add key="CertificateLocation" value="CurrentUser" />
-  <add key="CertificateThumbprint" value="E139D5F596179E93FD011FDDD236E72735CC67F3" />
+  <add key="CertificateThumbprint" value="14C63CF7D0600E219E8E0CB9EB13A11AB0E7F28B" />
 </appSettings>
   <connectionStrings>
     <!-- SQL Azure version -->

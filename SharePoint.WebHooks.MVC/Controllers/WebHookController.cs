@@ -45,10 +45,10 @@ namespace SharePoint.WebHooks.MVC.Controllers
                 {
                     // Recommended async pattern: this request must be processed within 5 seconds,
                     // hence it's better to do the processing using an asynchronous pattern.
-                    changeManager.AddNotificationToQueue(CloudConfigurationManager.GetSetting("StorageConnectionString"), notification);
+                    //changeManager.AddNotificationToQueue(CloudConfigurationManager.GetSetting("StorageConnectionString"), notification);
 
                     // Synchronous pattern: only for very simple operations that always complete within 5 seconds!
-                    //changeManager.ProcessNotification(notification);
+                    changeManager.ProcessNotification(notification);
                 }
             }
 

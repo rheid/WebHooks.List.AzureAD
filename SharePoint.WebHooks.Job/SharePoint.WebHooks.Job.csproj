@@ -114,7 +114,6 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
-    <None Include="Properties\PublishProfiles\ictpnpwebhookdemoaz - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\ictpnpwebhookdemoaz - Web Deploy.pubxml" />
     <None Include="Properties\webjob-publish-settings.json" />
   </ItemGroup>
