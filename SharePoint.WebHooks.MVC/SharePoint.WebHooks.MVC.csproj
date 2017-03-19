@@ -287,6 +287,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TestSetupController.cs" />
     <Compile Include="Controllers\WebHookController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -349,6 +350,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_WorkingOnIt.cshtml" />
     <Content Include="Service References\AzureAD\ConnectedService.json" />
+    <Content Include="Views\TestSetup\Index.cshtml" />
     <None Include="Web - Copy.prod">
       <SubType>Designer</SubType>
     </None>
